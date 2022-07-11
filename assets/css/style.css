@@ -5744,9 +5744,6 @@ img {
   margin-bottom: 40px;
 }
 
-.sidebar-page-container .sidebar-side .sidebar {
-}
-
 /* Services Detail */
 
 .services-detail {
@@ -7727,7 +7724,6 @@ img {
   font-size: 18px;
   line-height: 40px;
   margin-right: 20px;
-  display: inline-block;
   font-family: "Poppins", sans-serif;
 }
 

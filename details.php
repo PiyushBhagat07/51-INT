@@ -292,7 +292,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/s.png" alt="" style="">
+                                                    <img src="./assets/images/aminities/s.png" alt="" >
                                                 </div>
                                                 <h5>Servant Room</h5>
                                             </div>
@@ -304,7 +304,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/g.jpg" alt="" style="">
+                                                    <img src="./assets/images/aminities/g.jpg" alt="" >
                                                 </div>
                                                 <h5>Garden</h5>
                                             </div>
@@ -316,7 +316,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/p.png" alt="" style="">
+                                                    <img src="./assets/images/aminities/p.png" alt="" >
                                                 </div>
                                                 <h5>Private Cinema</h5>
                                             </div>
@@ -328,7 +328,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/y.jpg" alt="" style="">
+                                                    <img src="./assets/images/aminities/y.jpg" alt="" >
                                                 </div>
                                                 <h5>Yoga Room</h5>
                                             </div>
@@ -340,7 +340,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/pl.jpg" alt="" style="">
+                                                    <img src="./assets/images/aminities/pl.jpg" alt="" >
                                                 </div>
                                                 <h5>Plot Sizes</h5>
                                             </div>
@@ -352,7 +352,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/bh.jpg" alt="" style="">
+                                                    <img src="./assets/images/aminities/bh.jpg" alt="" >
                                                 </div>
                                                 <h5>Banquet Hall</h5>
                                             </div>
@@ -364,7 +364,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/r.jpg" alt="" style="">
+                                                    <img src="./assets/images/aminities/r.jpg" alt="" >
                                                 </div>
                                                 <h5>Restaurant</h5>
                                             </div>
@@ -376,7 +376,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/sc.png" alt="" style="">
+                                                    <img src="./assets/images/aminities/sc.png" alt="" >
                                                 </div>
                                                 <h5>Squash Court</h5>
                                             </div>
@@ -388,7 +388,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/pt.png" alt="" style="">
+                                                    <img src="./assets/images/aminities/pt.png" alt="" >
                                                 </div>
                                                 <h5>Pool Table</h5>
                                             </div>
@@ -400,7 +400,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/bar.png" alt="" style="">
+                                                    <img src="./assets/images/aminities/bar.png" alt="" >
                                                 </div>
                                                 <h5>Bar</h5>
                                             </div>
@@ -412,7 +412,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/bd.jpg" alt="" style="">
+                                                    <img src="./assets/images/aminities/bd.jpg" alt="" >
                                                 </div>
                                                 <h5>Badminton Ground</h5>
                                             </div>
@@ -424,7 +424,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/cg.png" alt="" style="">
+                                                    <img src="./assets/images/aminities/cg.png" alt="" >
                                                 </div>
                                                 <h5>Central Garden</h5>
                                             </div>
@@ -436,7 +436,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/unit.jpg" alt="" style="">
+                                                    <img src="./assets/images/aminities/unit.jpg" alt="" >
                                                 </div>
                                                 <h5>Units</h5>
                                             </div>
@@ -448,7 +448,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/cp.png" alt="" style="">
+                                                    <img src="./assets/images/aminities/cp.png" alt="" >
                                                 </div>
                                                 <h5>Cricket Pitch</h5>
                                             </div>
@@ -460,7 +460,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/bc.png" alt="" style="">
+                                                    <img src="./assets/images/aminities/bc.png" alt="" >
                                                 </div>
                                                 <h5>Basketball Ground</h5>
                                             </div>
@@ -472,7 +472,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/ba.png" alt="" style="">
+                                                    <img src="./assets/images/aminities/ba.png" alt="" >
                                                 </div>
                                                 <h5>Bowling Ale</h5>
                                             </div>
@@ -484,7 +484,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/cr.png" alt="" style="">
+                                                    <img src="./assets/images/aminities/cr.png" alt="" >
                                                 </div>
                                                 <h5>Cigar Room</h5>
                                             </div>
@@ -496,7 +496,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/cr2.webp" alt="" style="">
+                                                    <img src="./assets/images/aminities/cr2.webp" alt="" >
                                                 </div>
                                                 <h5>Conference Room</h5>
                                             </div>
@@ -508,7 +508,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/ht.png" alt="" style="">
+                                                    <img src="./assets/images/aminities/ht.png" alt="" >
                                                 </div>
                                                 <h5>Home Theatre</h5>
                                             </div>
@@ -520,7 +520,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/cf.webp" alt="" style="">
+                                                    <img src="./assets/images/aminities/cf.webp" alt="" >
                                                 </div>
                                                 <h5>Coffee Longue</h5>
                                             </div>
@@ -532,7 +532,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/l.png" alt="" style="">
+                                                    <img src="./assets/images/aminities/l.png" alt="" >
                                                 </div>
                                                 <h5>Library</h5>
                                             </div>
@@ -544,7 +544,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/j.png" alt="" style="">
+                                                    <img src="./assets/images/aminities/j.png" alt="" >
                                                 </div>
                                                 <h5>Jacuzzi</h5>
                                             </div>
