@@ -39,7 +39,7 @@
                                                 $res = mysqli_query($con, $q);
                                                 while ($data = mysqli_fetch_array($res)) {
                                                 ?>
-                                                 <li class="dropdown"><a href="#"><?php echo $data['city']; ?></a>
+                                                 <li class="dropdown"><a href="projects.php?city=<?php echo $data['city']; ?>&type=All Properties"><?php echo $data['city']; ?></a>
                                                      <ul>
                                                          <li><a href="projects.php?city=<?php echo $data['city']; ?>&type=Luxury Apartments">Luxury Apartments</a></li>
                                                          <li><a href="projects.php?city=<?php echo $data['city']; ?>&type=Luxury Penthouse">Luxury Penthouse</a></li>

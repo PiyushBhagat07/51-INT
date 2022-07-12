@@ -85,6 +85,28 @@
                     <div class="inner-column">
                         <h1>Contact Details</h1>
 
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="col-3">
+                                <h6><strong>Address :</strong></h6>
+                            </div>
+                            <div class="col-8">
+                                <b>
+                                    <p>1203, Palm Spring Plaza, <br> Golf Course Road, DLF Phase 5, Sector 54, <br>
+                                        Gurugram, Haryana - 122002</p>
+                                </b>
+                            </div>
+                        </div>
+
+                        <div class="outer_box">
+                            <div class="inner_c_box">
+                                <h5><span><i class="fa-solid fa-location-dot"></i></span> <span><b>Address :</b></span> 1203, Palm Spring Plaza, <br> Golf Course Road, DLF Phase 5, Sector 54, <br>
+                                    Gurugram, Haryana - 122002</h5>
+                            </div>
+                        </div>
+
                         <!-- Contact Info List -->
                         <ul class="contact-info-list">
                             <i class="fa-solid fa-location-dot"></i>

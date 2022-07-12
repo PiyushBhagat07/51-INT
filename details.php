@@ -76,6 +76,15 @@ $data7 = mysqli_fetch_array($res7);
         .table-bordered>thead>tr>th {
             font-size: 16px;
         }
+
+        .modal-backdrop.show {
+            display: none;
+        }
+
+        .modal-footer {
+            display: block;
+            text-align: center;
+        }
     </style>
     <script>
         $(document).ready(function() {
@@ -161,7 +170,7 @@ $data7 = mysqli_fetch_array($res7);
                                     <div class="text"><?php echo $data1['description']; ?></div>
 
                                     <div class="other-options clearfix d-flex" style="float: right;">
-                                        <h5 style="font-size: 24px;margin-top: 10px;">Brochure</h5> <button type="button" class="theme-btn cart-btn"> <i class="fas fa-cloud-download-alt" style="font-size: 26px;position: relative;bottom: -3px;"></i></button>
+                                        <h5 style="font-size: 24px;margin-top: 10px;">Brochure</h5> <button type="button" class="theme-btn cart-btn" data-toggle="modal" data-target="#download_brochure"> <i class="fas fa-cloud-download-alt" style="font-size: 26px;position: relative;bottom: -3px;"></i></button>
                                     </div>
                                 </div>
                             </div>
@@ -292,7 +301,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/s.png" alt="" >
+                                                    <img src="./assets/images/aminities/s.png" alt="">
                                                 </div>
                                                 <h5>Servant Room</h5>
                                             </div>
@@ -304,7 +313,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/g.jpg" alt="" >
+                                                    <img src="./assets/images/aminities/g.jpg" alt="">
                                                 </div>
                                                 <h5>Garden</h5>
                                             </div>
@@ -316,7 +325,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/p.png" alt="" >
+                                                    <img src="./assets/images/aminities/p.png" alt="">
                                                 </div>
                                                 <h5>Private Cinema</h5>
                                             </div>
@@ -328,7 +337,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/y.jpg" alt="" >
+                                                    <img src="./assets/images/aminities/y.jpg" alt="">
                                                 </div>
                                                 <h5>Yoga Room</h5>
                                             </div>
@@ -340,7 +349,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/pl.jpg" alt="" >
+                                                    <img src="./assets/images/aminities/pl.jpg" alt="">
                                                 </div>
                                                 <h5>Plot Sizes</h5>
                                             </div>
@@ -352,7 +361,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/bh.jpg" alt="" >
+                                                    <img src="./assets/images/aminities/bh.jpg" alt="">
                                                 </div>
                                                 <h5>Banquet Hall</h5>
                                             </div>
@@ -364,7 +373,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/r.jpg" alt="" >
+                                                    <img src="./assets/images/aminities/r.jpg" alt="">
                                                 </div>
                                                 <h5>Restaurant</h5>
                                             </div>
@@ -376,7 +385,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/sc.png" alt="" >
+                                                    <img src="./assets/images/aminities/sc.png" alt="">
                                                 </div>
                                                 <h5>Squash Court</h5>
                                             </div>
@@ -388,7 +397,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/pt.png" alt="" >
+                                                    <img src="./assets/images/aminities/pt.png" alt="">
                                                 </div>
                                                 <h5>Pool Table</h5>
                                             </div>
@@ -400,7 +409,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/bar.png" alt="" >
+                                                    <img src="./assets/images/aminities/bar.png" alt="">
                                                 </div>
                                                 <h5>Bar</h5>
                                             </div>
@@ -412,7 +421,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/bd.jpg" alt="" >
+                                                    <img src="./assets/images/aminities/bd.jpg" alt="">
                                                 </div>
                                                 <h5>Badminton Ground</h5>
                                             </div>
@@ -424,7 +433,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/cg.png" alt="" >
+                                                    <img src="./assets/images/aminities/cg.png" alt="">
                                                 </div>
                                                 <h5>Central Garden</h5>
                                             </div>
@@ -436,7 +445,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/unit.jpg" alt="" >
+                                                    <img src="./assets/images/aminities/unit.jpg" alt="">
                                                 </div>
                                                 <h5>Units</h5>
                                             </div>
@@ -448,7 +457,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/cp.png" alt="" >
+                                                    <img src="./assets/images/aminities/cp.png" alt="">
                                                 </div>
                                                 <h5>Cricket Pitch</h5>
                                             </div>
@@ -460,7 +469,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/bc.png" alt="" >
+                                                    <img src="./assets/images/aminities/bc.png" alt="">
                                                 </div>
                                                 <h5>Basketball Ground</h5>
                                             </div>
@@ -472,7 +481,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/ba.png" alt="" >
+                                                    <img src="./assets/images/aminities/ba.png" alt="">
                                                 </div>
                                                 <h5>Bowling Ale</h5>
                                             </div>
@@ -484,7 +493,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/cr.png" alt="" >
+                                                    <img src="./assets/images/aminities/cr.png" alt="">
                                                 </div>
                                                 <h5>Cigar Room</h5>
                                             </div>
@@ -496,7 +505,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/cr2.webp" alt="" >
+                                                    <img src="./assets/images/aminities/cr2.webp" alt="">
                                                 </div>
                                                 <h5>Conference Room</h5>
                                             </div>
@@ -508,7 +517,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/ht.png" alt="" >
+                                                    <img src="./assets/images/aminities/ht.png" alt="">
                                                 </div>
                                                 <h5>Home Theatre</h5>
                                             </div>
@@ -520,7 +529,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/cf.webp" alt="" >
+                                                    <img src="./assets/images/aminities/cf.webp" alt="">
                                                 </div>
                                                 <h5>Coffee Longue</h5>
                                             </div>
@@ -532,7 +541,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/l.png" alt="" >
+                                                    <img src="./assets/images/aminities/l.png" alt="">
                                                 </div>
                                                 <h5>Library</h5>
                                             </div>
@@ -544,7 +553,7 @@ $data7 = mysqli_fetch_array($res7);
                                         <div class="col-md-2 col-6 mx-auto my-2">
                                             <div class="aminities_inner_box text-center">
                                                 <div>
-                                                    <img src="./assets/images/aminities/j.png" alt="" >
+                                                    <img src="./assets/images/aminities/j.png" alt="">
                                                 </div>
                                                 <h5>Jacuzzi</h5>
                                             </div>
@@ -703,12 +712,10 @@ $data7 = mysqli_fetch_array($res7);
                     </div>
                 </div>
                 <div class="other-options clearfix">
-                    <a>
-                        <div class="d-flex" style="float: right;">
-                            <h5>Get Floor Plan</h5>
-                            <button type="button" class="theme-btn cart-btn"> <i class="fas fa-cloud-download-alt" style="font-size: 26px;position: relative;bottom: -3px;"></i></button>
-                        </div>
-                    </a>
+                    <div class="d-flex" style="float: right;">
+                        <h5>Get Floor Plan</h5>
+                        <button type="button" class="theme-btn cart-btn" data-toggle="modal" data-target="#download_floor_plan"> <i class="fas fa-cloud-download-alt" style="font-size: 26px;position: relative;bottom: -3px;"></i></button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -787,7 +794,7 @@ $data7 = mysqli_fetch_array($res7);
     <section class="property_map" id="map">
         <div class="map-section">
             <div class="map-canvas">
-                <iframe src="<?php echo $data1['map_link']; ?>" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="<?php echo $data1['map_link']; ?>" width="100%" height="550px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
@@ -799,7 +806,7 @@ $data7 = mysqli_fetch_array($res7);
                 <h2>FAQ's</h2>
             </div>
 
-            <div class="faq_area section_padding_130" id="faq">
+            <div class="faq_area section_padding_130 p-2" id="faq">
                 <div class="row justify-content-center">
                     <!-- FAQ Area-->
                     <div class="col-12 col-sm-10 col-lg-8">
@@ -903,14 +910,16 @@ $data7 = mysqli_fetch_array($res7);
                             <div class="checkbox">
                                 <h6 style="color: #fff;font-size: 22px;font-weight: 700;">Request A Site Visit
                                 </h6>
-                                <div class="d-flex" style="margin-left: 80px;">
-                                    <div class="form-group">
-                                        <input type="radio" name="flexRadioDefault" id="html" onclick="show2()">
-                                        <label for="html">Yes</label>
-                                    </div>
-                                    <div class="form-group" style="margin-left: 15px;">
-                                        <input type="radio" name="flexRadioDefault" id="css" onclick="show1()">
-                                        <label for="css">No</label>
+                                <div>
+                                    <div class="d-flex" style="width:fit-content;margin:auto;">
+                                        <div class="form-group">
+                                            <input type="radio" name="flexRadioDefault" id="html" onclick="show2()">
+                                            <label for="html">Yes</label>
+                                        </div>
+                                        <div class="form-group" style="margin-left: 15px;">
+                                            <input type="radio" name="flexRadioDefault" id="css" onclick="show1()">
+                                            <label for="css">No</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -918,13 +927,13 @@ $data7 = mysqli_fetch_array($res7);
 
                         <div class="col-md-4" id="div1" style="display:none">
                             <div class="form-group ">
-                                <label for="form-control">Select Visit Date</label>
+                                <label for="form-control" style="font-size: 18px;font-weight: 700;color: #fff;">Select Visit Date</label>
                                 <input type="date" name="date2" id="date2">
                             </div>
                         </div>
                         <div class="col-md-4" id="div2" style="display:none">
                             <div class="form-group">
-                                <label class="form-label">Available Time Slots</label>
+                                <label class="form-label" style="font-size: 18px;font-weight: 700;color: #fff;">Available Time Slots</label>
                                 <select class="form-control" name="slot2" id="slot2">
 
                                 </select>
@@ -939,6 +948,79 @@ $data7 = mysqli_fetch_array($res7);
             </div>
         </div>
     </section>
+
+    <!-- Download Brochure Modal -->
+    <div class="modal fade" id="download_brochure" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Please Provide your Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form action="web_script.php" method="post">
+                    <div class="modal-body">
+                        <div id="contact-form">
+                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                <input type="hidden" value="<?php echo $name; ?>" id="nm" name="pro_nm">
+                                <input type="text" name="username" placeholder="Your name" required>
+                            </div>
+
+                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                <input type="text" name="email" placeholder="Email address" required>
+                            </div>
+
+                            <div class="form-group col-lg-12 col-md-12 col-sm-12 m-auto mb-3">
+                                <input type="tel" name="phone" placeholder="Contact No." required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="theme-btn btn-style-two" style="color:#000;font-weight:700"><span class="txt">DOWNLOAD BROCHURE</span></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Download Brochure Modal Ends -->
+
+    <!-- Download Floor Plan Modal -->
+    <div class="modal fade" id="download_floor_plan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Please Provide your Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form action="web_script.php" method="post">
+                    <div class="modal-body">
+                        <div id="contact-form">
+                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                <input type="hidden" value="<?php echo $name; ?>" id="nm" name="pro_nm">
+                                <input type="text" name="username" placeholder="Your name" required>
+                            </div>
+
+                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                <input type="text" name="email" placeholder="Email address" required>
+                            </div>
+
+                            <div class="form-group col-lg-12 col-md-12 col-sm-12 m-auto mb-3">
+                                <input type="tel" name="phone" placeholder="Contact No." required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="theme-btn btn-style-two" style="color:#000;font-weight:700"><span class="txt">DOWNLOAD FLOOR PLAN</span></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Download Floor Plan Modal Ends -->
+
 
     <?php include('includes/footer.php') ?>
 
@@ -990,6 +1072,7 @@ $data7 = mysqli_fetch_array($res7);
             </div>
         </div>
     </div>
+
 
     <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/8.4.7/js/intlTelInput.js'></script>
